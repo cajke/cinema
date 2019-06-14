@@ -1,5 +1,4 @@
 # CINEMA Web application
-## Live url: http://coloseum.tk
 ## For admin username: admin@admin.com, password: coloseumadmin123
 ## For user username: dusancajic5@gmail.com, password: dusancajic5
 ## Instalation
