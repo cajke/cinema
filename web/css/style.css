@@ -1,0 +1,937 @@
+html body{background-color: #011627;}
+
+
+#header {height: 60px;}
+
+#header a {color: white;}
+
+#header .navbar.navbar-inverse.navbar-fixed-top {min-height: 60px;}
+
+#header .menu-center {left: -350px;}
+
+#header .menu-center-user{left:-170px;}
+
+#header .navbar .container .collapse.navbar-collapse .nav.navbar-nav .dropdown .dropdown-menu a:hover {background-color: black;color: red;}
+
+#header .navbar.navbar-inverse.navbar-fixed-top .container .navbar-header a{padding: 0 15px;}
+
+#header .navbar.navbar-inverse.navbar-fixed-top .container {padding-top: 5px;}
+
+#header .navbar.navbar-inverse.navbar-fixed-top .container .nav.navbar-nav {float: right;}
+
+#header .navbar.navbar-inverse.navbar-fixed-top .container .nav.navbar-nav .odjavi {margin-left: 60px;}
+
+.navbar.navbar-inverse {background-color: black;border: none;border-radius: 0;}
+
+.navbar .container .collapse.navbar-collapse .nav.navbar-nav .dropdown .dropdown-menu {background-color: black;}
+
+#mainNavBar .nav.navbar-nav {font-size: 16px;}
+
+
+.home-content .novi-filmovi .row .col-md-3 img, .home-content .uskoro-filmovi .row .col-md-3 img, .home-content .najpopularniji-filmovi .row .col-md-3 img {height: 300px;}
+
+.home-content .novi-filmovi, .home-content .uskoro-filmovi, .home-content .najpopularniji-filmovi {color: white;}
+
+.home-content .carousel-inner {height: 92vh;}
+
+.home-content .novi-filmovi .row .col-md-3 p, .home-content .uskoro-filmovi .row .col-md-3 p, .home-content .najpopularniji-filmovi .row .col-md-3 p {color: white;text-align: center;font-size: 16px;padding-top: 15px;}
+
+.home-content .novi-filmovi .row .col-md-3 .customfont, .home-content .uskoro-filmovi .row .col-md-3 .customfont {color: white;text-align: center;font-size: 30px;padding-top: 15px;}
+
+.home-content .novi-filmovi .row .col-md-3 .customfont2, .home-content .uskoro-filmovi .row .col-md-3 .customfont2, .home-content .najpopularniji-filmovi .row .col-md-3 .customfont2 {color: white;text-align: center;font-size: 25px;padding-top: 15px;}
+
+.home-content .novi-filmovi .row .col-md-3 .customfont3, .home-content .uskoro-filmovi .row .col-md-3 .customfont3, .home-content .najpopularniji-filmovi .row .col-md-3 .customfont3 {color: white;text-align: center;font-size: 25px;padding-top: 15px;}
+
+.home-content .uskoro-filmovi .row .col-md-3 .customfont4, .home-content .najpopularniji-filmovi .row .col-md-3 .customfont4 {color: white;text-align: center;font-size: 25px;padding-top: 15px;}
+
+.home-content .novi-filmovi .row .col-md-3 .customfont5, .home-content .najpopularniji-filmovi .row .col-md-3 .customfont5 {color: white;text-align: center;font-size: 20px;padding-top: 15px;}
+
+
+.film-content .container {color: white;}
+
+.film-content .container form {width: 420px; float: none;}
+
+.film-content .container form .form-row .form-group.col-md-6, .film-content .container form .form-row .form-group.col-md-12 {padding-left: 10px;padding-right: 10px;}
+
+.film-content .container form .btn.btn-success {width: 398px;}
+
+.film-content .container .create .form-row .btn {margin-bottom: 10px; margin-left: 10px;}
+
+.film-content .container .create .btn.btn-success {margin-bottom: 10px;}
+
+.film-content .table-responsive table {background-color: white; color: #555; min-width: 100%;}
+
+.film-content .table-responsive table .proba {width: 146px;}
+
+.fim-content .container .create .modal form .form-group.col-md-12 .close {position: absolute;right: 10px;}
+
+
+.error-content {padding-top: 150px;color: white;text-align: center;}
+
+.error-content img{margin: 0 auto; }
+
+.error-content a{text-align: center;}
+
+.error-content a {margin-top: 10px;transition: all 0.5s ease-out;color: white !important; text-decoration: none !important;opacity: 0.6;}
+
+.error-content a:hover {opacity: 1;margin-left: -20px;}
+
+.welcome .container .text-center.align-middle a {margin-top: 10px;transition: all 0.5s ease-out;color: white !important; text-decoration: none !important;opacity: 0.6;}
+
+.welcome .container .text-center.align-middle a:hover {opacity: 1;margin-left: -20px;}
+
+.welcome .container .text-center.align-middle {top: 150px;}
+
+.error-content .glyphicon.glyphicon-arrow-left, .welcome .glyphicon.glyphicon-arrow-left{margin-right: 10px;}
+
+
+.projection-content .container{margin-top: 50px;color: white;}
+
+.projection-content .container form{width: 400px; float: left; padding-right: 30px;}
+
+.projection-content .container .table-responsive table{background-color: white; color: #555;width: 1200px;}
+
+.projection-content .container form .form-row .form-group.col-md-6, .projection-content .container form .form-row .form-group.col-md-12{padding-left: 0px;padding-right: 10px;}
+
+.projection-content .container form .btn{width: 360px;}
+
+.projection-content .container .create .btn.btn-success{margin-bottom: 10px;}
+
+
+.user-content .container{margin-top: 50px;color: white;}
+
+.user-content .container form{width: 420px;float: none; padding-right: 30px;}
+
+.user-content .container .table-responsive table{background-color: white;color: #555; min-width: 100%;}
+
+.user-content .table-responsive table .cell{width: 146px;}
+
+.user-content .container form .form-row .form-group.col-md-6, .user-content .container form .form-row .form-group.col-md-12{padding-left: 0px;padding-right: 10px;}
+
+.user-content .container form .btn{width: 380px;}
+
+.user-content .container form .form-row .form-group.col-md-6 select{color:#555; width: 70px;border-radius: 4px;}
+
+.user-content .container .create .btn.btn-success{margin-bottom: 10px;}
+
+
+#mainDiv .row #divCol {width: 50px;margin: 2px;background-color: #CC6100;border-radius: 4px;color: white;}
+
+#mainDiv .row #busyDiv{width: 50px;margin: 2px;background-color: #323232;border-radius: 4px; color: white;}
+
+#mainDiv.container{margin: 50px auto 0 auto;max-width: 569px;}
+
+
+.site-footer{border-top: 1px solid #b2b2b2;margin-top: 40px;opacity: 0.3;}
+
+.bootom-footer{margin-top: 3px;padding-top: 10px;color: white;}
+
+.footer-nav{text-align: right;list-style: none;}
+
+.footer-nav li{display: inline;padding: 0 10px;}
+
+.site-footer .bootom-footer .footer-nav li a{color: white;}
+
+
+.form-container{color: white;padding: 50px 60px;margin-top: 20vh;margin-bottom: 100px;}
+
+.registration .container{color: white; margin-top: 20px;}
+
+.registration form .form-row .form-group.col-md-6, .registration form .form-row .form-group.col-md-12, .registration form .form-row .form-group.col-md-3{padding-left: 0px;padding-right: 10px;}
+
+.registration form 	.btn{width: 450px;}
+
+.registration form{margin: 0 auto;width: 460px;}
+
+
+.login .container{color: white; margin-top: 20px;}
+
+.login .container form{width: 300px;margin: 0 auto; padding: 0px;}
+
+.login .container .form-row .form-group.col-md-12{padding-right: 0px;padding-left: 0px;}
+
+
+.user-reservation-content-admin .table-responsive table{background-color: white; color: #555; min-width: 100%;}
+
+.user-reservation-content-admin{margin-top: 50px; color: white; }
+
+
+.edit-content{margin-top: 0px;}
+
+.edit-content form{ margin-top: 0px;}
+
+.edit-content .container form .form-row .form-group.col-md-6, .edit-content .container form .form-row .form-group.col-md-12{padding-left:0px;padding-right: 10px;}
+
+.edit-content .container{width: 500px;}
+
+.edit-content .container form .btn{width: 460px;}
+
+.edit-content select{width: 70px;border-radius: 4px;color: #555555}
+
+
+
+.reservation-content-admin .table-responsive table{background-color: white;color: #555; width: 100%;}
+
+.about-us-edit .container form h1 {color: white;margin-left: 270px;}
+
+.reservation-content-admin .container {margin-top: 100px;color: white;}
+
+
+.hall-content table {margin: 0 auto; margin-top: 40px; width: 400px; background-color:white;}
+
+.hall-content table .mainDiv .divRow .dicCol a {list-style: none; color: white;}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.buttonClose {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    transitionop: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content.animate{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.projection-content .container .modal form, .user-content .container .modal form, .film-content .container .modal form{
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+}
+
+.projection-content .container .modal form .form-row, .user-content .container .modal form .form-row{
+padding-right: 0;
+padding-left: 10px;
+
+}
+
+.user-content .container .modal form .form-row .btn.btn-success.btn-block{
+    width: 400px;
+}
+.projection-content .container .modal form .form-row .btn.btn-success.btn-block{
+    width: 378px;
+}
+
+.projection-content .container .modal form .form-row .form-group.col-md-12 .close, .user-content .container .modal form .form-row .form-group.col-md-12 .close{
+    opacity: 1;
+    color: white;
+    right: 10px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+.errorMessages {
+    display: block;
+    padding: 9px;
+    background-color: #f2dede;
+    border-radius: 4px;
+    width: 20%;
+    color: #a94442;
+}
+#passwordError,#emailError,#errorName{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+h1.najpopularniji {
+    font-size: 70px;
+    margin-bottom: 22px;
+}
+#googleMap{
+    height: 500px;
+    width: 650px;
+}
+carousel-caption{
+    color: white;
+}
+.mandatory{
+    color: #a94442;
+    font-size: 20px;
+}
+form{
+    color:white;
+}
+
+
+
+/*REPERTOAR*/
+
+.divDate.container .divDateBtn {background-color: #2B2E2E; border-radius: 4px;margin: 15px 5px 0px 15px;  width: 134px;height: 45px;}
+
+.divDate.container {color: white;}
+
+.divDate.container a {line-height: 45px; color: white;}
+
+.divDate.container .divDateBtn:hover {background-color:#CC6100;}
+
+.divDate.container .main {margin-top: 50px;}
+
+
+.divDate.container .main .mainDiv.row {background-color: #111E28; height: auto; margin-left: 0px; margin-right: 0px; margin-top: 30px;}
+
+.divDate.container .main .mainDiv.row .secondDiv, .divDate.container .main .mainDiv.row .thirdDiv {padding: 10px; height: auto;}
+
+.divDate.container .main .mainDiv.row .firstDiv{height: 300px; padding: 10px;}
+
+.divDate.container .main .mainDiv.row h2 {font-size: 24px; color: white; margin: 0;}
+
+.divDate.container .main .mainDiv.row h6 {line-height: 1.5; top: 60px; font-size: 14px; color: white; margin: 0;}
+
+.divDate.container .main .mainDiv.row .thirdDiv h2 { top: 20px;}
+
+.divDate.container .main .mainDiv.row .secondDiv a { top: 125px; font-size: 18px; color: white; margin: 0;}
+
+.divDate.container .secondDiv .details, .divDate.container .secondDiv h2{ position: relative;}
+
+.divDate.container .secondDiv .details { margin-top: 35px; margin-bottom: 35px;}
+
+.divDate.container .main .mainDiv.row .secondDiv a .secondDivDetails { margin: 90px auto 0 auto; background-color: #CC6100; border-radius: 4px;}
+
+.divDate.container .main .mainDiv.row .secondDiv a .secondDivDetails:hover { background-color: #7F3C00;}
+
+.divDate.container .main .mainDiv.row .thirdDivResevation, .divDate.container .main .mainDiv.row .thirDivReservationAdmin {position: relative; left: 60px; width: auto; height: auto; top: 10px; background-color:#CC6100 ; border-radius: 4px; margin-bottom: 10px; margin-right: 10px; float: left;}
+
+
+.divDate.container .main .mainDiv.row .thirdDivResevation:hover, .divDate.container .main .mainDiv.row .thirDivReservationAdmin:hover { background-color:#7F3C00;}
+
+
+
+.thirdDivResevation p, .divDate.container .main .mainDiv.row .thirDivReservationAdmin p {line-height: normal; margin: 5px; font-size: 13px;}
+
+.divDate.container img { width: 100%; height: 100%;}
+
+.divDate.container a { text-decoration: none;}
+
+.divDate.container .thirdDivButtonEdit { line-height: 0px; display: inline-block; padding-right: 5px; margin-bottom: 5px;}
+
+.divDate.container .thirDivReservationAdmin a{line-height: normal;}
+
+/*reprotar*/
+
+
+.film-content .container{
+    top: 50px;
+    position: relative;
+}
+
+.film-content .container .browseMovies{
+    position: absolute;
+    top: 0px;
+    left:0px;    
+    z-index: 1;
+}
+
+.film-content .container .browseMovies form .form-row .form-group.col-md-6.genre label{
+    position: relative;
+    font-size: 14px;
+    top: 117px;
+    left: 242px;
+}
+
+.film-content .container .browseMovies form .form-row .form-group.col-md-6.genre select{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    top: 88px;
+    left: 280px;
+}
+
+.film-content .container .browseMovies form .form-row .form-group.col-md-6.rating label{
+    position: relative;
+    font-size: 14px;
+    top: 117px;
+    left: 245px;
+}
+
+.film-content .container .browseMovies form .form-row .form-group.col-md-6.rating select{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    top: 88px;
+    left: 300px;
+}
+
+
+.film-content .container .browseMovies form .form-row .form-group.col-md-3 button{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    top: 43px;
+    left: 700px;
+}
+
+
+.film-content .container .create button{
+    position: relative;
+    top: 0px;
+    left:0px;    
+    z-index: 1;
+}
+
+
+
+
+.edit-content .container form .form-row .form-group.col-md-3 input[type='file']::-webkit-file-upload-button{
+    position: relative;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    border-color: #ccc;
+    border: 1px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 15;
+}
+
+.edit-content .container .upload .form-row .form-group.col-md-3 input[type='file']::-webkit-file-upload-button:hover{
+    background-color: #ccc;
+}
+
+.edit-content .container .upload .form-row .form-group.col-md-3 input{
+    position: relative;
+    top: 40px;
+    left: 103px;
+}
+
+/* Footer */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding:30px 0px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #627062;
+}
+.footer-social-icons ul li a{
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+.footer-social-icons ul li a i{
+    line-height: 50px;
+}
+.footer-social-icons ul li:hover{
+    background:#627062;
+}
+.footer-social-icons ul li:hover a{
+    color: #fff;
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+    font-size:15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-menu-one ul li a:hover{
+    color: #627062;
+}
+.footer-menu-two{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top:15px;
+}
+.footer-menu-two ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-two ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-two ul li a{
+    font-size:14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-menu-two ul li a:hover{
+    color: #627062;
+}
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #0e0f0e;
+    padding: 10px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-bottom p a{
+    color: #627062;
+}
+.footer-bottom p a:hover{
+    color: #627062;
+}
+
+
+/*DETAILS*/
+
+.details .firstDiv .rating{
+    font-size: 26px;
+    position: relative;
+    top: 0px;
+    left:75px;
+}
+
+
+.details .firstDiv .rating i{
+    position: relative;
+    left: -70px;
+    color: #E3BA23;
+}
+
+.details .secondDiv p{
+    float: left;
+    padding-right: 10px;
+    color: #C0BFBF;
+}
+
+
+
+.details .firstDiv{
+    margin-top: 30px;
+}
+
+.details .firstDiv p, .details .firstDiv h1{
+    color: white;
+    float: left;
+    margin: 0;
+}
+
+.details .thirdDiv{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding:0px;
+    height: 300px;
+}
+
+.details .thirdDiv .slika{
+    height: 100%;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.details .thirdDiv .slika img{
+    height: 100%;
+}
+
+
+.details .thirdDiv .trailer{
+    height: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.details .thirdDiv .trailer iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.details .fourDiv{
+    color: white;
+}
+
+.details .fifthDiv.col-md-6{
+    width: 69%;
+}
+
+.details .fourDiv .director{
+    position: relative;
+    top: -25px;
+    left: 70px;
+}
+
+.details .main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.details .main .description{
+    width: 280px;
+}
+
+.details .thirdDivResevation{
+    position: relative;
+    left: 60px;
+    width: auto;
+    height: auto;
+    top: 10px;
+    background-color:#CC6100 ;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.details .thirdDivResevation p{
+    color: white;
+    line-height: normal;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.details .thirdDivResevation:hover{
+    background-color:#7F3C00;
+}
+
+/*DETAILS*/
+
+/* About Us*/
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #34495e;
+    padding: 60px;
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+.ps{
+    display: inline-flex;
+    margin-left: -38px;
+}
+.kum p{
+    padding: 12px;
+}
+.kum img{
+    width: 285px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom:20px;
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover > img{
+    filter: none;
+}
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.menuTest {
+    border-style: solid;
+    border-width: thin;
+    border-color: transparent;
+}
+
+div.menuTest:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: #334452;
+    cursor: pointer;
+}
+
+div.menuTest:active {
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    background-color: #334452;
+    cursor: pointer;
+}
+
+td.menuCell {
+    width: 25%;
+    color: white;
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+
+div#content {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div#contentHead {
+    font-weight: bold;
+    color: white;
+}
+
+div#contentBody_Home {
+    display: block;
+    color: white;
+}
+
+div#contentBody_News {
+    display: none;
+    color: white;
+}
+
+div#contentBody_Downloads {
+    display: none;
+    color: white;
+}
+
+div#contentBody_Slider {
+    display: none;
+    color: white;
+}
+
+
+
+
+.team-section{
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 60px;
+}
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;	
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-bottom:20px;
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+.ps a:hover > img{
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: 22px;
+}
+.info{
+
+	overflow: hidden;
+	text-align: left;
+	background: grey;
+	padding: 60px;
+
+}
+.info .kutija{
+	display: table;
+}
+.info .kutija .kutija-kolona{
+	display: table-row;
+}
+.info .kutija .kutija-kolona .kutija-celija{
+	display: table-cell;
+	width: 50%;
+	padding: 20px;
+	font-family: arial;
+}
+
+.info .kutija .kutija-kolona .kutija-celija h3{
+	padding: 30px;
+	color: white;
+}
+
+
+.news .firstNews, .news .secondNews{
+    display: inline-block;
+    padding:10px;
+}
+
+.news{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
